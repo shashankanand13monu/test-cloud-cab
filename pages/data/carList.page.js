@@ -24,26 +24,9 @@ export const carList = [
     service: 'Black SUV',
     multiplier: 2.8,
   }
-]
+];
 
-export default () => {
-  return (
-    <Wrapper>
-      <Title>Choose a ride, or swipe up for more</Title>
-      <CarList>
-        {carList.map((car, index) => (
-          <Car
-            key={index}
-            >
-            <CarImage src={car.imgUrl} />
-            <CarDetails>
-              <Service>{car.service}</Service>
-              <Time>5 min away</Time>
-            </CarDetails>
-            <Price>rs. 500</Price>
-          </Car>
-        ))}
-      </CarList>
-    </Wrapper>
-  )
-}
+
+
+
+
