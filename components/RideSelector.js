@@ -4,7 +4,7 @@ import {useEffect,useState} from 'react'
 import tw from 'tailwind-styled-components'
 // import carList from '../pages/data/carList.page'
 // import { carList } from '../pages/data/carList.page'
-import carList from '../pages/data/carList.js'
+import carList from './carList.js'
 
 
 // import { carList } from '../pages/data/carList'
