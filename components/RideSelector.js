@@ -2,7 +2,10 @@ import {useEffect,useState} from 'react'
 
 //useEffect is used to call API easily and make sure that the page dont crash and UseState to manage to state of something when it not changes
 import tw from 'tailwind-styled-components'
-import { carList } from '../pages/data/carList'
+import {carList} from '../pages/data/carList.page'
+
+
+// import { carList } from '../pages/data/carList'
 
 const RideSelector = ({pickUpCoordinates, dropofCoordinates}) => {
 
